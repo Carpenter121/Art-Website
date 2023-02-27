@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.parent{
+	margin: auto;
+	background-color: black;
+	text-align: center;
+	height: 700px;
+}
+
+.img1{
+	width: 100px;
+	height: 100px;
+	top: 42.8%;
+	position: relative;
+}
+
+.rotate0{
+	width: 100px;
+	height: 100px;
+	top: 42.8%;
+	position: relative;
+	transform: rotate(0deg);
+}
+
+.rotate15{
+	width: 100px;
+	height: 100px;
+	top: 42.8%;
+	position: relative;
+	transform: rotate(15deg)
+}
+
+.rotate30{
+	width: 100px;
+	height: 100px;
+	top: 42.8%;
+	position: relative;
+	transform: rotate(30deg)
+}
+
+.secondSquare {
+	width: 100px;
+	height: 100px;
+}

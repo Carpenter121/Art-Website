@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	background-color: black;
+}
+
+.mainImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.text1{
+	color: white;
+	position: absolute;
+	bottom: 0%;
+	left: 40%;
+}
+
+.text2{
+	color: Red;
+	position: absolute;
+	bottom: 90%;
+	left: 47%;
+}
+
+.text3{
+	color: Red;
+	position: absolute;
+	bottom: 50%;
+	left: 5%;
+}
+
+.text4{
+	color: Red;
+	position: absolute;
+	bottom: 50%;
+	left: 87%;
+}
+
+.text5{
+	color: Red;
+	position: absolute;
+	bottom: 10%;
+	left: 45%;
+}
+
+.textA{
+	color: Red;
+	position: absolute;
+	bottom: 20%;
+	left: 45%
+}
+
+a{
+	Color: red;
+}

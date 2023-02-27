@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.poemDiv{
+	background-color: black;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+
+.poemText{
+	text-align: center;
+	top: 50%;
+	right: 50%;
+}
+
+.poemText2{
+	top: 10%;
+	right: 40%;
+	position: absolute;
+	color: white;
+	text-align: center;
+}
+
+.bold{
+	font-weight: bolder;
+	color: red;
+}
+.cheese{
+	
+}
+
+
+.olives{
+
+}
+
+
+.sausage{
+
+}
+
+
+.anchovies1{
+	float: left	
+}
+
+.anchovies2{
+	float: right;	
+}
+
+.anchovies3{
+	float: left;	
+}
+
+
+.fishy{	
+}
+
+
+.salty{	
+}
+
+
+.pepperoni{	
+}
+
+
+.peppers{
+		
+}

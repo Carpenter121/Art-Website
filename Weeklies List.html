@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<title>Weeklies List</title>
+<link rel="stylesheet" href="Weeklies List.css" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="parent"> 
+	<img src="Images/Blank Wall.png" class="bgWall" id="bg">
+	<a href="Weeklies/Weekly A.html"> <img src="Images/closedLock.png" onmouseover="open1()" onmouseout="close1()" class="lock" id="lk"> </a>
+	<a href="Weeklies/Weekly B.html"> <img src="Images/closedLock.png" class="lock2" onmouseover="open2()" onmouseout="close2()" id="lk2"> </a>
+	<a href="Weeklies/Weekly C.html"> <img src="Images/closedLock.png" class="lock3" onmouseover="open3()" onmouseout="close3()" id="lk3"> </a>
+	<a href="Weeklies/Weekly D.html"> <img src="Images/closedLock.png" class="lock4" onmouseover="open4()" onmouseout="close4()" id="lk4"> </a>
+	<a href="Weeklies/Weekly E.html"> <img src="Images/closedLock.png" class="lock5" onmouseover="open5()" onmouseout="close5()" id="lk5"> </a>
+	<a href="Weeklies/Weekly F.html"> <img src="Images/closedLock.png" class="lock6" onmouseover="open6()" onmouseout="close6()" id="lk6"> </a>
+	<h1 class="excercise1"> Weekly A </h1>
+	<h1 class="excercise2"> Weekly B </h1>
+	<h1 class="excercise3"> Weekly C </h1>
+	<h1 class="excercise4"> Weekly D </h1>
+	<h1 class="excercise5"> Weekly E </h1>
+	<h1 class="excercise6"> Weekly F </h1>
+	</div>
+	
+	
+	<script>
+		var closedLock1 = document.getElementById("lk");
+		var closedLock2 = document.getElementById("lk2");
+		var closedLock3 = document.getElementById("lk3");
+		var closedLock4 = document.getElementById("lk4");
+		var closedLock5 = document.getElementById("lk5");
+		var closedLock6 = document.getElementById("lk6");
+		
+			function open1() {
+				$(closedLock1).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close1() {
+				$(closedLock1).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+			function open2() {
+				$(closedLock2).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close2() {
+				$(closedLock2).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+		function open3() {
+				$(closedLock3).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close3() {
+				$(closedLock3).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+			function open4() {
+				$(closedLock4).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close4() {
+				$(closedLock4).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+		function open5() {
+				$(closedLock5).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close5() {
+				$(closedLock5).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+			function open6() {
+				$(closedLock6).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close6() {
+				$(closedLock6).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+	
+	
+	
+	
+	
+	
+	</script>
+</body>
+</html>

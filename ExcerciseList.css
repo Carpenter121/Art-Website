@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	background-color: black;
+}
+.bgWall{
+	padding: 0px;
+	margin: auto;
+	position: absolute;
+	z-index: 1;
+}
+
+.lock{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 0px;
+}
+
+.lock2{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 300px;
+}
+
+.excercise1{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 120px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise2{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 420px;
+	font-family: 'Press Start 2P', cursive;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<title>Javascript Test</title>
+<link rel="stylesheet" href="JTest.css"	type="text/css">
+</head>
+
+	<script>
+		var value = ""
+		var newValue = ""
+		
+		function clickButtonFunction() {
+			console.log('run');
+			if (localStorage.getItem("clickCounter") === null) {
+				localStorage.setItem("clickCounter", "0");
+			}
+			value = parseInt(localStorage.getItem("clickCounter"));
+			newValue = value + 1
+			localStorage.setItem("clickCounter", newValue);
+			document.getElementById("clickCounter").innerHTML = newValue
+		}
+		
+		
+		function click2 () {
+		var myImage = document.getElementById("square");
+		if (newValue == 4) {
+		x = "15";
+		myImage.style.transform = "rotate(15deg)"
+		}
+		 else if (newValue == 5) {
+			x="30";
+		myImage.style.transform = "rotate(30deg)"
+		} else if (newValue == 6) {
+			x = "45";
+		myImage.style.transform = "rotate(45deg)"
+		}
+		else {
+				x = "0";
+		myImage.style.transform = "rotate(0deg)"
+		}
+			console.log(x);
+		}
+
+		
+			function clickReset() {
+			localStorage.setItem("clickCounter", "0");
+			document.getElementById("clickCounter").innerHTML = '0'
+			}
+
+	
+	</script>
+	
+	<div class="parent">
+		<img id="square" class="img1" onClick="clickButtonFunction()" src="images/1200px-Red_rectangle.svg.png"> 
+	</div>
+	<div id="clickCounter"></div>
+	<div id="counterC"> <img class="secondSquare" onClick="click2()" src="images/1200px-Red_rectangle.svg.png"> </div>
+	<div id="counterD"></div>
+	<button class="clickButton" onclick="clickReset()">Reset count</button>
+
+<body>
+</body>
+</html>

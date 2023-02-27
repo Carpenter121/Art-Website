@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+.poemDiv{
+	background-color: black;
+	width: 100%;
+	height: auto;
+	margin: 10px;
+}
+
+.poemText{
+	text-align: center;
+	top: 50%;
+	right: 50%;
+}
+
+.pizza{
+	color: white;	
+}
+.pizza:hover{
+	color: orange;	
+}
+
+.cheese{
+	color: white;	
+}
+.cheese:hover{
+	color: Yellow;	
+}
+
+.olives{
+	color: white;	
+}
+.olives:hover{
+	color: Green;	
+}
+
+.sausage{
+	color: white;	
+}
+.sausage:hover{
+	color: Brown;	
+}
+
+.anchovies{
+	color: white;	
+}
+.anchovies:hover{
+	color: black;	
+}
+
+.fishy{
+	color: white;	
+}
+.fishy:hover{
+	color: aqua;	
+}
+
+.salty{
+	color: white;	
+}
+.salty:hover{
+	color: lightgoldenrodyellow;	
+}
+
+.pepperoni{
+	color: white;	
+}
+.pepperoni:hover{
+	color: Red;	
+}
+
+.peppers{
+	color: white;	
+}
+.peppers:hover{
+	color: green;	
+}

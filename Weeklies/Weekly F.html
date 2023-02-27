@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<title>WeeklyA</title>
+<link rel="stylesheet" href="Weekly F.css" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="parent">
+		<img src="Images/Wall.png" class="bgImage">
+		<h1 class="weeklyText"> This week I have done a lot of work on my project 1 assignment. I have finished most of it as of writing this, and learned a lot about Javascript. The first puzzle I created took the longest, as it was a process trying to create a system that would log the number of clicks based on the user input. I found a solution to this problem by using the local storage to log how many times an item had been clicked. I used an empty div to act as the counter itself, and allowed the local storage to write and update the values within. I then recalled this value in a very long if-else statement, which evaluated the number and will rotate the dial based on the amount of clicks that have been performed. At the end of this function I added a reset command, that upon finishing one full rotation will reset the number of clicks down to 0.
+		<br>
+		<br>
+	The next puzzle involved creating four separate instances of the local storage logging function, as each dial would need to have its own value. These four functions were triggered by pressing on the individual dials, and thus could “spin” on their own. In order to create the illusion of spinning, I would replace the image with another rendered still of the dial rotated 45 degrees. This way the dial is able to cycle through nine images each time it is clicked. In order to confirm the solution for this puzzle, I had each rotation be logged under its own variable. I then used these variable to set a conditional statement that each one had to be equal to a certain value. If the puzzle is correct, pressing the green button will allow the user through to the exercises page.
+			<br>
+			<br>
+The last puzzle was much easier than the first two, as it just required that 5 objects be rotated when clicked. The hardest part about the last puzzle was that the images were all stacked on top of each other, and thus I had to model new buttons in order to make rotating the dials easier.
+
+
+ </h1>
+	</div>
+</body>
+</html>

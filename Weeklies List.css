@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	background-color: black;
+}
+.bgWall{
+	padding: 0px;
+	margin: auto;
+	position: absolute;
+	z-index: 1;
+}
+
+.lock{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 0px;
+}
+
+.lock2{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 300px;
+}
+
+.lock3{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 600px;
+}
+
+.lock4{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 900px;
+}
+
+.lock5{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 1200px;
+}
+
+.lock6{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 1500px;
+}
+
+
+.excercise1{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 120px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise2{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 420px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise3{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 720px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise4{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 1020px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise5{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 1320px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise6{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 1620px;
+	font-family: 'Press Start 2P', cursive;
+}

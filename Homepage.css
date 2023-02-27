@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	/*background-color: black;*/
+}
+.parent{
+	margin: auto;
+	padding: none;
+	text-align: center;
+	width: 100%;
+	height: 1800px;
+	background-color: aqua;
+	z-index: 0;
+	position: relative;
+}
+
+.backgroundImage {
+	width: 1903px;
+	height: auto;
+	left: 0%;
+	top: 0%;
+	padding: none;
+	z-index: 0;
+	position: absolute;
+}
+
+.dialImage{
+	position: absolute;
+	left: 899px;
+	top: 258px;
+	width: 115px;
+	height: 135px;
+	z-index: 1;
+	background-color: transparent;
+}
+
+.click{
+	z-index: 2;
+	margin-top: 50px;
+	position: relative;
+}
+
+.numberParent{
+	position: absolute;
+	left: 830px;
+	top: 75px;
+	padding: none;
+	opacity: 100%;
+	color: #d8ff00;
+}
+
+.numberParentRed{
+	position: absolute;
+	left: 830px;
+	top: 75px;
+	padding: none;
+	opacity: 100%;
+	color: red;
+}
+.number1{
+	width: 240px;
+	font-size: 50px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.buttonCircle{
+	z-index: 2;
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 973px;
+	top: 432px;
+	opacity: 0%;
+}
+
+.buttonCircle:hover{
+	display: block;
+	opacity: 100%;
+}

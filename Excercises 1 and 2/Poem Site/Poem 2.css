@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.poemDiv{
+	background-color: black;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+
+.poemText{
+}
+
+.bgImage{
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+}
+
+.poemText2{
+	top: 10%;
+	right: 40%;
+	position: absolute;
+	color: white;
+	text-align: center;
+}
+
+.cheese{
+	position: absolute;	
+	top: 100%;	
+}
+
+
+.olives{
+	position: absolute;	
+	top: -45px;
+	right: 90px;
+}
+
+
+.sausage{
+	position: absolute;	
+	top: 250px;
+	right: -120px;	
+}
+
+
+.anchovies{
+	position: absolute;	
+	top: 150px;
+	right: 220px;	
+}
+
+
+.fishy{
+	color: white;	
+}
+
+
+.salty{
+	color: white;	
+}
+
+
+.pepperoni{
+	position: absolute;	
+	top: 85px;
+	right: -110px;	
+}
+
+
+.peppers{
+	position: absolute;	
+	top: 0px;
+	right: -235px;	
+}

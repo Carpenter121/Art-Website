@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<title>ExcerciseList</title>
+<link rel="stylesheet" href="ExcerciseList.css" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="parent"> 
+	<img src="Images/Blank Wall.png" class="bgWall" id="bg">
+	<a href="Excercises 1 and 2/Narrative Site/Front Door.html"> <img src="Images/closedLock.png" onmouseover="open1()" onmouseout="close1()" class="lock" id="lk"> </a>
+	<a href="Excercises 1 and 2/Poem Site/Poem 1.html"> <img src="Images/closedLock.png" class="lock2" onmouseover="open2()" onmouseout="close2()" id="lk2"> </a>
+	<h1 class="excercise1"> Excercise 1 </h1>
+	<h1 class="excercise2"> Excercise 2 </h1>
+	</div>
+	
+	
+	<script>
+		var closedLock1 = document.getElementById("lk");
+		var closedLock2 = document.getElementById("lk2");
+		
+			function open1() {
+				$(closedLock1).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close1() {
+				$(closedLock1).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+			function open2() {
+				$(closedLock2).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close2() {
+				$(closedLock2).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+	
+	
+	
+	
+	
+	
+	</script>
+</body>
+</html>

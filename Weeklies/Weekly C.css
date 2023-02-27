@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	background-color: black;
+}
+.parent{
+	align-text: center;
+}
+
+.bgImage{
+	z-index: 1;
+	opacity: 50%;
+	background-color: black;
+}
+.weeklyText{
+	z-index: 2;
+	left: 3%;
+	top: 5%;
+	position: absolute;
+	color: lightgray;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-color: transparent;
+}
