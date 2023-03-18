@@ -15,14 +15,17 @@
 	<img src="Images/Blank Wall.png" class="bgWall" id="bg">
 	<a href="Excercises 1 and 2/Narrative Site/Front Door.html"> <img src="Images/closedLock.png" onmouseover="open1()" onmouseout="close1()" class="lock" id="lk"> </a>
 	<a href="Excercises 1 and 2/Poem Site/Poem 1.html"> <img src="Images/closedLock.png" class="lock2" onmouseover="open2()" onmouseout="close2()" id="lk2"> </a>
+	<a href="Excercise 3/drawingWithCode.html"> <img src="Images/closedLock.png" class="lock3" onmouseover="open3()" onmouseout="close3()" id="lk3"> </a>
 	<h1 class="excercise1"> Excercise 1 </h1>
 	<h1 class="excercise2"> Excercise 2 </h1>
+	<h1 class="excercise3"> Excercise 3 </h1>
 	</div>
 	
 	
 	<script>
 		var closedLock1 = document.getElementById("lk");
 		var closedLock2 = document.getElementById("lk2");
+		var closedLock3 = document.getElementById("lk3");
 		
 			function open1() {
 				$(closedLock1).attr("src", "Images/openLock.png");
@@ -38,6 +41,14 @@
 			};
 			function close2() {
 				$(closedLock2).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+			function open3() {
+				$(closedLock3).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close3() {
+				$(closedLock3).attr("src", "Images/closedLock.png");
 				console.log("no")
 			};
 	
