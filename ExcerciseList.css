@@ -40,6 +40,16 @@
 	top: 600px;
 }
 
+.lock4{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 900px;
+}
+
 .excercise1{
 	z-index: 2;
 	position: absolute;
@@ -64,5 +74,14 @@
 	background-color: transparent;
 	left: 400px;
 	top: 720px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise4{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 1020px;
 	font-family: 'Press Start 2P', cursive;
 }
