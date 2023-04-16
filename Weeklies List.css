@@ -90,6 +90,16 @@
 	top: 2100px;
 }
 
+.lock9{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 2400px;
+}
+
 
 .excercise1{
 	z-index: 2;
@@ -160,5 +170,14 @@
 	background-color: transparent;
 	left: 400px;
 	top: 2220px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise9{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 2520px;
 	font-family: 'Press Start 2P', cursive;
 }

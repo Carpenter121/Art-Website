@@ -21,6 +21,7 @@
 	<a href="Weeklies/Weekly F.html"> <img src="Images/closedLock.png" class="lock6" onmouseover="open6()" onmouseout="close6()" id="lk6"> </a>
 	<a href="Weeklies/Weekly G.html"> <img src="Images/closedLock.png" class="lock7" onmouseover="open7()" onmouseout="close7()" id="lk7"> </a>
 	<a href="Weeklies/Weekly H.html"> <img src="Images/closedLock.png" class="lock8" onmouseover="open8()" onmouseout="close8()" id="lk8"> </a>
+	<a href="Weeklies/Weekly I.html"> <img src="Images/closedLock.png" class="lock9" onmouseover="open9()" onmouseout="close9()" id="lk9"> </a>
 	<h1 class="excercise1"> Weekly A </h1>
 	<h1 class="excercise2"> Weekly B </h1>
 	<h1 class="excercise3"> Weekly C </h1>
@@ -29,6 +30,7 @@
 	<h1 class="excercise6"> Weekly F </h1>
 	<h1 class="excercise7"> Weekly G </h1>
 	<h1 class="excercise8"> Weekly H </h1>
+	<h1 class="excercise9"> Weekly I </h1>
 	</div>
 	
 	
@@ -41,6 +43,7 @@
 		var closedLock6 = document.getElementById("lk6");
 		var closedLock7 = document.getElementById("lk7");
 		var closedLock8 = document.getElementById("lk8");
+		var closedLock9 = document.getElementById("lk9");
 		
 			function open1() {
 				$(closedLock1).attr("src", "Images/openLock.png");
@@ -104,6 +107,14 @@
 			};
 			function close8() {
 				$(closedLock8).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+			function open9() {
+				$(closedLock9).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close9() {
+				$(closedLock9).attr("src", "Images/closedLock.png");
 				console.log("no")
 			};
 	
