@@ -100,6 +100,26 @@
 	top: 2400px;
 }
 
+.lock10{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 2700px;
+}
+
+.lock11{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 250px;
+	left: 100px;
+	top: 3000px;
+}
+
 
 .excercise1{
 	z-index: 2;
@@ -179,5 +199,23 @@
 	background-color: transparent;
 	left: 400px;
 	top: 2520px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise10{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 2820px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.excercise11{
+	z-index: 2;
+	position: absolute;
+	background-color: transparent;
+	left: 400px;
+	top: 3120px;
 	font-family: 'Press Start 2P', cursive;
 }

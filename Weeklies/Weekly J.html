@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<title>WeeklyG</title>
+<link rel="stylesheet" href="Weekly H.css" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="parent">
+		<img src="Images/Wall.png" class="bgImage">
+		<h1 class="weeklyText"> This week I have made a lot of progress in terms of the mechanics by which my game will run. I found out during some more intense work on my project that the original method for hit detection would not fully work, as you cannot create any kind of shape to shape hit registration in p5. I thought long and hard through several solutions to this problem and finally came up with an idea to create two functions that evaluate the angles between the enemy and player positions. I then evaluated whether or not the enemy and player were looking at one another. I created another function that makes it so that all enemies will be forced to look at the player camera,  so when the player looks back and the angles of both entities add up to 360 degrees, the system will register a hit. The last thing I have to do is create a system of movements that will allow for the enemies to come closer to the player over time, and I have found a very good tutorial about creating this action with math.js. After that it is simply a matter of replacing the assets of the enemies with sprites and creating an overlay for the game. I hope to be able to finish all of these changes by this evening, so that I can have a fully functioning game ready for tomorrow. At the very least I hope to be able to develop the concept of the game through the mechanics already implemented, so that I can show off the math and coding work that allows things to work. 
+            <br>
+            <br>
+            Overall so far I have high hopes for this project, and I hope that I can once again create something on something else it was not meant to run on. This game has taught me a lot about how p5 works at its core, and also the ins and outs of developing hit registration from the ground up. It has taught me a lot about how things actually get created for the web, and why there are such harsh limits on the types of things that are allowed to be done. I hope to use this knowledge going forward as a way to have a better understanding of the game development pipeline.
+
+ </h1>
+	</div>
+</body>
+</html>
