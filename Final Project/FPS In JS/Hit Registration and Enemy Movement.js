@@ -40,7 +40,6 @@ let cam = {
   
   function setup() {
     createCanvas(1940, 890, WEBGL);
-    noCursor()
     
     // Keep track of the previous mouse position for look around controls
     mousePrev = {
