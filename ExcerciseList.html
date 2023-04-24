@@ -17,10 +17,12 @@
 	<a href="Excercises 1 and 2/Poem Site/Poem 1.html"> <img src="Images/closedLock.png" class="lock2" onmouseover="open2()" onmouseout="close2()" id="lk2"> </a>
 	<a href="Excercise 3/drawingWithCode.html"> <img src="Images/closedLock.png" class="lock3" onmouseover="open3()" onmouseout="close3()" id="lk3"> </a>
 	<a href="Excercise 5/Room Test.html"> <img src="Images/closedLock.png" class="lock4" onmouseover="open4()" onmouseout="close4()" id="lk4"> </a>
+	<a href="Final Project/FPS In JS/FPS.html"> <img src="Images/closedLock.png" class="lock5" onmouseover="open5()" onmouseout="close5()" id="lk5"> </a>
 	<h1 class="excercise1"> Excercise 1 </h1>
 	<h1 class="excercise2"> Excercise 2 </h1>
 	<h1 class="excercise3"> Excercise 3 </h1>
 	<h1 class="excercise4"> Excercise 5 </h1>
+	<h1 class="excercise5"> Final Project </h1>
 	</div>
 	
 	
@@ -29,6 +31,7 @@
 		var closedLock2 = document.getElementById("lk2");
 		var closedLock3 = document.getElementById("lk3");
 		var closedLock4 = document.getElementById("lk4");
+		var closedLock5 = document.getElementById("lk5");
 		
 			function open1() {
 				$(closedLock1).attr("src", "Images/openLock.png");
@@ -62,6 +65,15 @@
 				$(closedLock4).attr("src", "Images/closedLock.png");
 				console.log("no")
 			};
+			function open5() {
+				$(closedLock5).attr("src", "Images/openLock.png");
+				console.log("yes")
+			};
+			function close5() {
+				$(closedLock5).attr("src", "Images/closedLock.png");
+				console.log("no")
+			};
+	
 	
 	
 	
